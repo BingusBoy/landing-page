@@ -13,7 +13,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 40px;    
+    gap: 20px;    
     color: #e5e7eb;
 }
 
@@ -26,7 +26,7 @@ body {
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .header-text {
@@ -122,11 +122,30 @@ button {
     background-color: #e5e7eb;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 80px;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+.sign-container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 150px;
+}
+
+.sign-info{
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+}
+
+.sign-text {
+    color:#e5e7eb
+    
 }
