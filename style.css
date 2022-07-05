@@ -43,6 +43,7 @@ body {
 .hero-container{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #1f2937;
     padding: 30px;
@@ -94,6 +95,7 @@ button {
 .info-deck{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 50px;
 }
@@ -135,17 +137,35 @@ button {
     background-color: #3882f6;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 150px;
+    justify-content: flex-start;
+    margin: 100px;
+    border-radius: 4px;
 }
 
 .sign-info{
     display: flex;
     flex-direction: column;
     border: 0px;
+    margin: 30px;
+    flex: 1 1;
 }
 
 .sign-text {
-    color:#e5e7eb
-    
+    color:#e5e7eb;
+    flex: 0 1;
+}
+
+.sign-button {
+    border: solid #ffffff 5px;
+    align-self:flex-end;
+    justify-self: flex-end;
+    margin: 30px;
+    flex: 1 1 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
 }
